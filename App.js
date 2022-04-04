@@ -41,7 +41,8 @@ function AuthenticatedStack() {
 function Navigation() {
   return (
     <NavigationContainer>
-      <AuthStack />
+      {/* <AuthStack /> */}
+      <AuthenticatedStack/>
     </NavigationContainer>
   );
 }
